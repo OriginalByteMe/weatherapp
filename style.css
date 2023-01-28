@@ -1,0 +1,46 @@
+.current-weather,
+.forecast {
+  border: 1px solid #ccc;
+  padding: 1em;
+}
+
+.city {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  color: #00bfff;
+}
+
+.weather-icon-container {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+}
+
+.weather-icon {
+  width: 50px;
+  height: 50px;
+  margin: 25px auto;
+}
+
+.temperature {
+  font-size: 5em;
+  margin-bottom: 0.5em;
+  color: #00bfff;
+}
+
+.condition {
+  font-size: 2em;
+}
+
+.forecast-title {
+  font-size: 2em;
+  margin-bottom: 1em;
+  color: #00bfff;
+}
+
+.forecast-day {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+}

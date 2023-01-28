@@ -1,0 +1,26 @@
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "App that tells the weather",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OriginalByteMe/weatherapp.git"
+  },
+  "author": "noahrijkaard@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OriginalByteMe/weatherapp/issues"
+  },
+  "homepage": "https://github.com/OriginalByteMe/weatherapp#readme",
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
