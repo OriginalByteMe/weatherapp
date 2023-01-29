@@ -18,9 +18,9 @@
 }
 
 .weather-icon {
-  width: 50px;
-  height: 50px;
-  margin: 25px auto;
+  width: 100px;
+  height: 100px;
+  /* margin: 25px auto; */
 }
 
 .temperature {
@@ -42,5 +42,9 @@
 .forecast-day {
   border: 1px solid #ccc;
   padding: 1em;
-  margin-bottom: 1em;
+  /* margin-bottom: 1em; */
+}
+
+.submitBtn {
+  margin-top: 8px;
 }

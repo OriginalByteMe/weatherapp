@@ -19,14 +19,7 @@
             <label for="city">City</label>
             <input type="text" class="form-control" id="city" placeholder="Enter city">
           </div>
-          <div class="form-group">
-            <label for="date">Date</label>
-            <input type="date" class="form-control" id="date">
-          </div>
-          <div class="form-group">
-            <label for="country">Country</label>
-            <input type="text" class="form-control" id="country" placeholder="Enter country">
-          </div>
+          
           <div class="form-group">
             <label for="unit">Unit</label>
             <select class="form-control" id="unit">
@@ -34,29 +27,23 @@
               <option value="celsius">Celsius</option>
             </select>
           </div>
-          <button type="submit" id="submitForm" class="btn btn-primary">Get weather</button>
+          
+            <button type="submit" id="submitForm" class="btn btn-primary form-control submitBtn">Get weather</button>
+          
         </form>
       </div>
       <div class="col-md-6 forecast">
-        <h1 class="forecast-title text-center">5-Day Forecast</h1>
+        <h1 class="forecast-title text-center">Forcast for []</h1>
         <div class="row">
-          <div class="col-md-6 forecast-day">
-            <h2 class="day text-center">Monday</h2>
+          <div class="forecast-day">
+            <h2 class="weather-type text-center">Monday</h2>
             <div class="weather-icon-container text-center">
               <img class="weather-icon"  alt="weather-type">
             </div>
             <h3 class="high-temp text-center">80°F</h3>
             <h3 class="low-temp text-center">65°F</h3>
           </div>
-          <div class="col-md-6 forecast-day">
-            <h2 class="day text-center">Tuesday</h2>
-            <div class="weather-icon-container text-center">
-              <img class="weather-icon"  alt="weather-type">
-            </div>
-            <h3 class="high-temp text-center">75°F</h3>
-            <h3 class="low-temp text-center">60°F</h3>
-          </div>
-          <!-- Additional forecast days go here -->
+          
         </div>
       </div>
     </div>
