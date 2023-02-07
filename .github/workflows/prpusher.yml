@@ -21,4 +21,4 @@ jobs:
       uses: distributhor/workflow-webhook@v3.0.2
       env:
         webhook_url: ${{ secrets.WEBHOOK_URL }}
-        data: '{ "repository": "${{github.event.repository}}", "number": "${{github.event.number}}", "created_at": "${{github.event.pull_request.created_at}}", "updated_at": "${{github.event.pull_request.updated_at}}" }'
+        data: '{ "pull_requests": "${{github.event.pull_request}}", "number": "${{github.event.number}}", "created_at": "${{github.event.pull_request.created_at}}", "updated_at": "${{github.event.pull_request.updated_at}}" }'
